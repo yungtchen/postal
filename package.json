@@ -1,0 +1,25 @@
+{
+  "name": "postal",
+  "version": "1.0.0",
+  "description": "WS messenger",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yungtchen/postal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yungtchen/postal/issues"
+  },
+  "homepage": "https://github.com/yungtchen/postal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "pusher": "^5.0.0"
+  }
+}
